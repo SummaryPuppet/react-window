@@ -19,7 +19,7 @@ function Window({ name = "", children }) {
     >
       <header
         onPointerDown={startDrag}
-        className="p-1 bg-gray-100 flex justify-between"
+        className="p-1 bg-gray-100 flex justify-between hover:bg-gray-200"
       >
         {name}
         <div>
